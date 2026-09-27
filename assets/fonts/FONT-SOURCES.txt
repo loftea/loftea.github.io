@@ -4,5 +4,13 @@ License: SIL Open Font License 1.1; see wenkai-OFL.txt.
 The subset contains 周海刚 and is renamed HZ Name WenKai.
 Original copyright and license records are retained inside the font.
 
-Futura is requested from the visitor's installed fonts through CSS.
-No Futura font file is distributed. Source Sans 3 is the bundled fallback.
+English font: Jost, variable weight 100-900, upright and italic.
+Source: https://github.com/google/fonts/tree/main/ofl/jost
+Original project: https://github.com/indestructible-type/Jost
+License: SIL Open Font License 1.1; see jost-OFL.txt.
+The official TTF files are converted to WOFF2 with fontTools, retaining all
+glyphs, variation axes, font names, copyright records and license metadata.
+These files are served by the website without an external font service.
+
+English body uses Jost 370; emphasis and entry titles use Jost 500.
+Section headings use Jost 550.
