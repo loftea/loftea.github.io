@@ -1,0 +1,8 @@
+Chinese name font: a three-character subset of LXGW WenKai Lite Regular v1.522.
+Source: https://github.com/lxgw/LxgwWenKai-Lite
+License: SIL Open Font License 1.1; see wenkai-OFL.txt.
+The subset contains 周海刚 and is renamed HZ Name WenKai.
+Original copyright and license records are retained inside the font.
+
+Futura is requested from the visitor's installed fonts through CSS.
+No Futura font file is distributed. Source Sans 3 is the bundled fallback.

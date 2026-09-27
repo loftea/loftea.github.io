@@ -113,6 +113,7 @@ def render(lang=1):
   <meta name="color-scheme" content="light">
   <title>Haigang Zhou · 周海刚</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{favicon}">
+  <link rel="preload" href="{prefix}assets/name-wenkai.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{prefix}assets/style.css?v={style_version}">
 </head>
 <body>
@@ -140,7 +141,7 @@ def build():
     (DIST / 'index.html').write_text(render(), encoding='utf-8')
     for name in ('style.css',):
         copy2(ROOT / 'assets' / name, DIST / 'assets' / name)
-    for name in ('SourceSans3-Regular.otf', 'SourceSans3-Semibold.otf', 'SourceSans3-RegularIt.otf', 'SourceSans3-SemiboldIt.otf', 'LICENSE.txt'):
+    for name in ('SourceSans3-Regular.otf', 'SourceSans3-Semibold.otf', 'SourceSans3-RegularIt.otf', 'SourceSans3-SemiboldIt.otf', 'LICENSE.txt', 'name-wenkai.woff2', 'wenkai-OFL.txt', 'FONT-SOURCES.txt'):
         copy2(ROOT / 'assets' / 'fonts' / name, DIST / 'assets' / name)
     (DIST / 'assets' / 'logos').mkdir(exist_ok=True)
     for name in ('github.svg',):
