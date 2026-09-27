@@ -1,0 +1,147 @@
+
+
+\documentclass{resume_tsinghua} %
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} %
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\usepackage{fancyhdr}
+
+\name{Haigang Zhou} %
+\address{Nanjing University, Nanjing, China, 210023} %
+\address{Email:
+hgzhou2003 at outlook.com} %
+
+\definecolor{TsinghuaPurple}{cmyk}{0.58,0.90,0,0}
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{TsinghuaPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{0em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\renewcommand{\sectionlineskip}{\smallskip}
+
+\begin{document}
+\fontsize{10.5}{12.5}\selectfont
+\setlength{\parskip}{4pt}
+
+\begin{rSection}{Education}
+
+{\bf Ph.D. Student in Computer Science and Technology} \hfill {\em Sep. 2023 -- Present}
+\\
+\textit{Nanjing University, Advisor: \href{http://penghuiyao.info/}{Prof. Penghui Yao}}
+\\
+\\
+{\bf B.S. in Mathematics and Applied Mathematics} \hfill {\em Sep. 2019 -- June 2023}
+\\
+\textit{Tsinghua University}
+
+\end{rSection}
+
+\begin{rSection}{Professional Experience}
+\begin{rSubsection}{Beijing Yongyuan Technology Co., Ltd. (Startup)}{\em May 2026 -- Present}{Power Quantitative Trading Algorithm Engineer; Founding Team Member}{}
+  \item Developed spread prediction models for spot electricity markets in Fujian, Zhejiang, Mengxi, and other regions, alongside customer-side and generation-side power forecasting models, using models such as LightGBM, XGBoost, TCN, and Transformer.
+  \item Generated electricity-trading submission plans for clients and moved them into live-market testing; spot-market arbitrage backtests achieved an \textbf{84.1\%} daily win rate and \textbf{79.7\%} weighted tick-level accuracy.
+  \item Achieved a team ranking of \textbf{26/6,342 (top 0.41\%)} in the Electricity Market Trading Track of the 4th World AI4S Prize.
+\end{rSubsection}
+\begin{rSubsection}{MiniMax}{\em Apr. 2025 -- July 2025}{LLM \& Agent Intern}{}
+  \item Contributed to SFT/RL data iterations for \href{https://huggingface.co/MiniMaxAI/MiniMax-M1}{M1}, \href{https://huggingface.co/MiniMaxAI/MiniMax-M2}{M2}, and Xingye, focusing on building high-quality Math data; independently owned data collection, cleaning, decontamination, and quality filtering, and evaluated data impact through training runs. MiniMax-M1-80k achieved 86.0\% accuracy on AIME 2024.
+  \item Participated in the cold-start stage of the M2 Agent model, working on data construction and training-effect validation.
+  \item Invited as a company representative to attend the 2025 WAIC forum ``Mathematical Boundaries and Foundational Reconstruction of Artificial Intelligence.''
+\end{rSubsection}
+
+\begin{rSubsection}{Beijing Huifeng Technology Co., Ltd. (PINNIX)}{\em Dec. 2023 -- Mar. 2024}{Large Language Model (LLM) Intern}{}
+  \item Designed and implemented an LLM-driven, iterative question-bank workflow built around a \textbf{solve--generalize--summarize} cycle, delivering approximately 3,000 Math and Reasoning problems and continually expanding the question bank to provide core data and AI capabilities for the company's talent assessment system.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://www.leaplab.ai/}{Learning and Perception (LEAP) Lab}}{\em Jan. 2022 -- May 2022}{Department of Automation, Tsinghua University\\Reinforcement Learning Research, Supervisor: \href{http://www.gaohuang.net}{Assoc. Prof. Gao Huang}}{}
+
+\item Investigated self-distillation for offline RL and analyzed experimental results on MuJoCo.
+\item Contributed to research and theoretical analysis of Meta-Weight networks that learn weights for offline RL updates.
+
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Publications}
+
+{\bf \href{https://arxiv.org/abs/2606.17729}{\parbox[t]{\dimexpr\linewidth-48pt\relax}{\raggedright Dimension-Free Approximate Tensorization of Quantum Hypercontractivity for Qudit Depolarizing Semigroups}}} \hfill {\em 2026}
+\\
+\textit{Yangjing Dong, Li Gao, Fengning Ou, Penghui Yao, \textbf{Haigang Zhou}}\hfill{\normalfont\footnotesize\color{black!65}Authors listed alphabetically by surname}
+\\
+AQIS 2026; IEEE TIT (under review); arXiv:2606.17729 [quant-ph]
+
+\end{rSection}
+
+\begin{rSection}{Manuscripts under review}
+
+{\bf \href{https://arxiv.org/abs/2609.21329}{Fooling Thresholds of Halfspaces}} \hfill {\em 2026}
+\\
+\textit{Minglong Qin, Penghui Yao, Mingnan Zhao, \textbf{Haigang Zhou}}\hfill{\normalfont\footnotesize\color{black!65}Authors listed alphabetically by surname}
+\\
+SODA 2027 (under review); arXiv:2609.21329 [cs.CC]
+
+\end{rSection}
+
+\newpage
+
+\begin{rSection}{Projects}
+{\bf \href{https://github.com/loftea/jp-study-site}{Japanese Study Studio (jp-study-site)}} \hfill {\em Sep. 2026}
+\\
+\textit{Personal Project}
+\par
+Developed a local AI Japanese learning site in Python and JavaScript, integrating Codex CLI and Anki's native review scheduling through AnkiConnect. Implemented interactive tutoring, persistent cross-session memory, and structured storage for learning records, textbooks, and supplementary reading materials.
+
+\end{rSection}
+
+\begin{rSection}{Teaching Experience}
+
+{\bf Computational Complexity, Nanjing University} \hfill {\em Spring 2026}
+   \\
+   \textit{ Teaching Assistant, Teacher: \href{http://penghuiyao.info/}{Prof. Penghui Yao}}
+
+   {\bf Foundations of Data Science, Nanjing University} \hfill {\em Fall 2025}
+\\
+\textit{Teaching Assistant, Instructor: \href{https://njusz.nju.edu.cn/55/c6/c53016a742854/page.htm}{Assoc. Prof. Mingmou Liu}}
+
+   {\bf Quantum Computing Talent Development Program, USTC} \hfill {\em Summer 2025}
+   \\
+   \textit{Mentor, Program Lead: \href{https://faculty.ustc.edu.cn/zfsu/zh_CN/kyxm/990249/content/21787.htm}{Assoc. Researcher Zhaofeng Su}}
+
+   {\bf Information Theory, Nanjing University} \hfill {\em Spring 2025, Spring 2024}
+   \\
+   \textit{ Teaching Assistant, Teacher: \href{http://penghuiyao.info/}{Prof. Penghui Yao}}
+
+\end{rSection}
+
+\begin{rSection}{Achievements} \itemsep -2pt
+{\textbf{Outstanding Graduate Student}, Nanjing University}\hfill {\em Dec. 2025} \\
+{\textbf{President's Scholarship}, Nanjing University}\hfill {\em Oct. 2023} \\
+{\textbf{Research Innovation Award}, Department of Mathematical Sciences, Tsinghua University}\hfill {\em Mar. 2023} \\
+{\textbf{Second Prize, Chinese Mathematics Competitions for College Students (Major Group)}}\hfill {\em Mar. 2020} \\
+{\textbf{Silver Prize, CMO (Chinese Mathematical Olympiad Winter Camp)}}\hfill {\em Dec. 2018}
+
+\end{rSection}
+
+\begin{rSection}{Languages}
+
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+		Computer Languages  & Python (\& Pandas), C/C++, Golang, Matlab, \LaTeX.                          \\
+		Foreign Languages & English: CET-4 (594/710), CET-6 (616/710)                                   \\
+		                 & French: TFU-4, Excellent (90.5/100),\\
+                         & German: PHD-4, Excellent (94/100)\\
+
+	\end{tabular}
+
+\end{rSection}
+
+\end{document}
