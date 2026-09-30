@@ -1,6 +1,6 @@
 """English personal homepage content, aligned with the current CV."""
 
-UPDATED = '2026-09-27'
+UPDATED = '2026-09-30'
 
 EMAIL_DISPLAY = 'hgzhou2003 at outlook.com'
 
@@ -53,7 +53,7 @@ PAPERS = [{'title': 'Dimension-Free Approximate Tensorization of Quantum Hyperco
   'category': 'publications'},
  {'title': 'Fooling Thresholds of Halfspaces',
   'authors': ['Minglong Qin', 'Penghui Yao', 'Mingnan Zhao', 'Haigang Zhou'],
-  'status': 'SODA 2027 (under review)',
+  'status': 'Preprint',
   'year': 2026,
   'arxiv': '2609.21329',
   'category': 'manuscripts'},
