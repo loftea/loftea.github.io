@@ -1,6 +1,6 @@
 """English personal homepage content, aligned with the current CV."""
 
-UPDATED = '2026-09-30'
+UPDATED = '2026-10-01'
 
 EMAIL_DISPLAY = 'hgzhou2003 at outlook.com'
 
@@ -16,6 +16,8 @@ AUTHOR_URLS = {
     'Penghui Yao': 'https://penghuiyao.info/',
     'Minglong Qin': 'https://tsdjh.github.io/',
     'Mingnan Zhao': 'https://mingnanzh.github.io/',
+    # No verified personal homepage; use arXiv's author search link.
+    'Zhenyu Jiang': 'https://arxiv.org/search/quant-ph?searchtype=author&query=Jiang,+Z',
 }
 
 INTRO = [
@@ -56,6 +58,12 @@ PAPERS = [{'title': 'Dimension-Free Approximate Tensorization of Quantum Hyperco
   'status': 'Preprint',
   'year': 2026,
   'arxiv': '2609.21329',
+  'category': 'manuscripts'},
+ {'title': 'A Dichotomy for MIP* in the Presence of Unital Noise',
+  'authors': ['Yangjing Dong', 'Zhenyu Jiang', 'Minglong Qin', 'Penghui Yao', 'Haigang Zhou'],
+  'status': 'QIP 2027 (under review)',
+  'year': 2026,
+  'arxiv': '2609.39318',
   'category': 'manuscripts'},
  {'title': 'MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention',
   'authors': ['MiniMax Team'],
