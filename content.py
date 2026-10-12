@@ -1,6 +1,6 @@
 """English personal homepage content, aligned with the current CV."""
 
-UPDATED = '2026-10-01'
+UPDATED = '2026-10-12'
 
 EMAIL_DISPLAY = 'hgzhou2003 at outlook.com'
 
@@ -34,8 +34,11 @@ INTRO = [
     'news coverage</a>).',
     'Outside of research, I enjoy photography and learning languages. I am currently learning '
     'Japanese and French. Thanks to AI, I never run out of ways to learn and practice! '
-    'I have also written a reusable AI-agent skill for building a Japanese learning website, '
-    'available in my <a href="https://github.com/loftea/jp-study-site">Japanese Study Studio project</a>.',
+    'I have written a reusable AI-agent skill for building a Japanese learning website, '
+    'available in my <a href="https://github.com/loftea/jp-study-site">Japanese Study Studio project</a>. '
+    'I also provided the complete Simplified Chinese translation for '
+    '<a href="https://store.steampowered.com/app/2379720/Every_Letter/">Every Letter</a>, '
+    'a narrative game about writing letters on behalf of others.',
 ]
 
 EDUCATION = [{'title': 'Nanjing University',
@@ -79,7 +82,12 @@ PROJECTS = [{'title': 'Japanese Study Studio',
   'text': 'Developed a local AI Japanese learning site in Python and JavaScript, integrating Codex CLI and '
           'Anki’s native review scheduling through AnkiConnect. Implemented interactive tutoring, persistent '
           'cross-session memory, and structured storage for learning records, textbooks, and supplementary '
-          'reading materials.'}]
+          'reading materials.'},
+ {'title': 'Every Letter',
+  'url': 'https://store.steampowered.com/app/2379720/Every_Letter/',
+  'role': 'Chinese Translator',
+  'text': 'Translated all game text into Simplified Chinese for this narrative game about writing '
+          'letters on behalf of others.'}]
 
 AWARDS = [{'title': 'Outstanding Graduate Student', 'organization': 'Nanjing University', 'date': 'Dec. 2025'},
  {'title': 'President’s Scholarship', 'organization': 'Nanjing University', 'date': 'Oct. 2023'},

@@ -42,7 +42,8 @@ def entry(item, lang):
         title = f'<a href="{escape(item["url"], quote=True)}">{title}</a>'
     if item.get('institution'):
         title += f'<span class="entry-institution"> · {escape(local(item["institution"], lang))}</span>'
-    body = f'<div class="entry-heading"><h3>{title}</h3><span class="date">{escape(local(item["date"], lang))}</span></div>'
+    date = f'<span class="date">{escape(local(item["date"], lang))}</span>' if item.get('date') else ''
+    body = f'<div class="entry-heading"><h3>{title}</h3>{date}</div>'
     if item.get('role'):
         body += f'<p class="role">{escape(local(item["role"], lang))}</p>'
     if item.get('metadata'):
